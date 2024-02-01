@@ -1,0 +1,52 @@
+/* assets/css/styles.css */
+body {
+    font-family: Courier, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    background: #FFFFFF;
+    text-color: #000000;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li a {
+    list-style: none;
+    display: inline;
+    padding: 0;
+    text-decoration: none;
+    margin: 0 10px;
+    color: #000000;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    text-align: left;
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+main {
+    padding: 15px;
+}
+
+footer {
+    margin-top: 20px;
+}
