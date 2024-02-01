@@ -4,21 +4,24 @@ title: "Google Dorks"
 ## Google Dorks
 
 ## Search filters
-| Filter    |
-|-----------|
-| allintext |
-| intext    |
-| inurl     |
-| intitle   |
-| allintitle|
-| site      |
-| filetype  |
-| link      |
-| numrange|
+## Search filters
+
+| Filter      |
+|-------------|
+| allintext   |
+| intext      |
+| inurl       |
+| intitle     |
+| allintitle  |
+| site        |
+| filetype    |
+| link        |
+| numrange    |
 | before/after|
-| allinacnhor|
-| related   |
-| cache     |
+| allinanchor |
+| related     |
+| cache       |
+
 
 ## Resources
 [EXPLOIT-DB](https://www.exploit-db.com/google-hacking-database)
