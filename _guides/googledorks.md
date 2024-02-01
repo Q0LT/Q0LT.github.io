@@ -4,21 +4,21 @@ title: "Google Dorks"
 ## Google Dorks
 
 ## Search filters
-| Filter    | Usage                |
-|-----------|----------------------|
-| allintext | allintext:"keyword" |
-| intext    | intext:"keyword"    |
-| inurl     | allinurl:"keyword"  |
-| intitle   | allintitle:"keyword"|
-| allintitle| allintitile:"keyword"|
-| site      | site:"keyword"      |
-| filetype  | filetype:"pdf"      |
-| link      | link:"keyword"      |
-| numrange  | numrange:321-325    |
-| before/after| filetype:doc & (before:2000-01-01 after: 2001-01-01)|
-| allinacnhor (and also inanchor) | allinpostauthor:"keyword"|
-| related   | related:www.google.com |
-| cache     | cache:www.google.com   |
+| Filter    |
+|-----------|
+| allintext |
+| intext    |
+| inurl     |
+| intitle   |
+| allintitle|
+| site      |
+| filetype  |
+| link      |
+| numrange|
+| before/after|
+| allinacnhor|
+| related   |
+| cache     |
 
 ## Resources
 [EXPLOIT-DB](https://www.exploit-db.com/google-hacking-database)
