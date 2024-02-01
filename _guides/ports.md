@@ -48,6 +48,7 @@ title: "Ports"
 | 5061        | SIP (encrypted/TLS)            |
 
 ## Other Port Information
+
 | Port number | Description                    |
 |-------------|--------------------------------|
 | 0-1023      | Well-known/System ports        |
