@@ -31,3 +31,16 @@ title: "Helpful Resources"
 ## THREAT MODELING
 [THREAT MODELING MANIFESTO](https://www.threatmodelingmanifesto.org/)
 [AWESOME THREAT MODELING](https://github.com/hysnsec/awesome-threat-modelling)
+
+## SECURITY MISCONFIGURATION
+[AMAZON S3 BUCKET DISCOVERY AND ENUMERATION](https://blog.websecurify.com/2017/10/aws-s3-bucket-discovery)
+[OWASP TESTING CONFIGURATION](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/README)
+[OWASP TESTING ERROR CODES](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_For_Improper_Error_Handling)
+
+## Practice
+[OWASP JUICE SHOP](https://owasp.org/www-project-juice-shop/)
+
+
+
+
+
