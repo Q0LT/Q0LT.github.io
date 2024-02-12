@@ -2,5 +2,32 @@
 title: "Helpful Resources"
 ---
 ## Resources
-[THREAT MODELING MANIFESTO](https://www.threatmodelingmanifesto.org/)
 
+[OWASP TOP 10](https://owasp.org/www-project-top-ten/)
+
+## Broken Auth
+[OWASP BROKEN AUTH](https://0xn3va.gitbook.io/cheat-sheets/web-application/broken-authentication)
+[OWASP AUTH CHEAT SHEET](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
+
+## Directory Traversal
+
+[OWASP DIRECTORY TRAVERSAL](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include)
+[PAYLOADALLTHETHINGS - DIRECTORY TRAVERSAL](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Directory%20Traversal)
+[PAYLOADALLTHETHINGS - FILE INCLUSION](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion)
+
+## IDORS 
+[OWASP IDORS](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/04-Testing_for_Insecure_Direct_Object_References)
+[MEDIUM IDORS](https://vickieli.medium.com/how-to-find-more-idors-ae2db67c9489)
+
+## INJECTION
+[OWASP QUERY PARAMETERIZATION CHEAT SHEET](https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html)
+[PORTSWIGGER SERVER SIDE TEMPLATE INJECTION](https://portswigger.net/kb/issues/00101080_server-side-template-injection)
+[OWASP TESTING FOR SQLI](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection)
+[PAYLOADALLTHETHINGS - SQLI](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection)
+[MYSQLIOT](https://github.com/dtrip/mysqloit)
+[PORTSWIGGER SQLI CHEAT SHEET](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+[HACKTRICKS SQLI](https://book.hacktricks.xyz/pentesting-web/command-injection)
+
+## THREAT MODELING
+[THREAT MODELING MANIFESTO](https://www.threatmodelingmanifesto.org/)
+[AWESOME THREAT MODELING](https://github.com/hysnsec/awesome-threat-modelling)
