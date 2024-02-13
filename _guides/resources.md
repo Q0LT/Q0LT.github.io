@@ -33,8 +33,9 @@ title: "Helpful Resources"
 [AWESOME THREAT MODELING](https://github.com/hysnsec/awesome-threat-modelling)
 
 ## Vulnerability Assessment
-[Vuln Lab](https://www.vulnerability-lab.com/)
-[Rapid7](https://www.rapid7.com/db/)
+[VULN LAB](https://www.vulnerability-lab.com/)
+[RAPID7](https://www.rapid7.com/db/)
+[AUTOMATED THREATS](https://owasp.org/www-project-automated-threats-to-web-applications/)
 
 ## SECURITY MISCONFIGURATION
 [AMAZON S3 BUCKET DISCOVERY AND ENUMERATION](https://blog.websecurify.com/2017/10/aws-s3-bucket-discovery)
