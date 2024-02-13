@@ -37,6 +37,14 @@ title: "Helpful Resources"
 [OWASP TESTING CONFIGURATION](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/README)
 [OWASP TESTING ERROR CODES](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_For_Improper_Error_Handling)
 
+## VULNERABLE AND OUTDATED COMPONENTS
+[UNFORTUNATE REALITY OF INSECURE LIBRARIES](https://cdn2.hubspot.net/hub/203759/file-1100864196-pdf/docs/Contrast_-_Insecure_Libraries_2014.pdf)
+[MITRE CVE SEARCH](https://www.cvedetails.com/version-search.php)
+[NATIONAL VULNERABILITY DATABASE](https://nvd.nist.gov/)
+[RETIRE.JS](https://github.com/retirejs/retire.js/)
+[GITHUB ADVISORY DATABASE](https://github.com/retirejs/retire.js/)
+[RUBY LIBRARY SECURITY](https://rubysec.com/)
+
 ## Practice
 [OWASP JUICE SHOP](https://owasp.org/www-project-juice-shop/)
 
