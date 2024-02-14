@@ -32,7 +32,7 @@ title: "Helpful Resources"
 [THREAT MODELING MANIFESTO](https://www.threatmodelingmanifesto.org/)
 [AWESOME THREAT MODELING](https://github.com/hysnsec/awesome-threat-modelling)
 
-## Vulnerability Assessment
+## VULNERABILITY ASSESSMENT
 [VULN LAB](https://www.vulnerability-lab.com/)
 [RAPID7](https://www.rapid7.com/db/)
 [AUTOMATED THREATS](https://owasp.org/www-project-automated-threats-to-web-applications/)
