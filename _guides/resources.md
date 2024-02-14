@@ -3,7 +3,7 @@ title: "Helpful Resources"
 ---
 ## Resources
 
-[OWASP TOP 10](https://owasp.org/www-project-top-ten/)\
+[OWASP TOP 10](https://owasp.org/www-project-top-ten/)
 
 ## Broken Auth
 [OWASP BROKEN AUTH](https://0xn3va.gitbook.io/cheat-sheets/web-application/broken-authentication)\
@@ -51,7 +51,7 @@ title: "Helpful Resources"
 [RUBY LIBRARY SECURITY](https://rubysec.com/)
 
 ## Practice
-[OWASP JUICE SHOP](https://owasp.org/www-project-juice-shop/)\
+[OWASP JUICE SHOP](https://owasp.org/www-project-juice-shop/)
 
 
 
