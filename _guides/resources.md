@@ -28,6 +28,11 @@ title: "Helpful Resources"
 [PORTSWIGGER SQLI CHEAT SHEET](https://portswigger.net/web-security/sql-injection/cheat-sheet)\
 [HACKTRICKS SQLI](https://book.hacktricks.xyz/pentesting-web/command-injection)
 
+## SERVER SIDE REQUEST FORGERY
+[SSRF BIBLE](https://cheatsheetseries.owasp.org/assets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet_SSRF_Bible.pdf)\
+[ORANGE TSAI](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf)\
+[OWASP](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/)
+
 ## THREAT MODELING
 [THREAT MODELING MANIFESTO](https://www.threatmodelingmanifesto.org/)\
 [AWESOME THREAT MODELING](https://github.com/hysnsec/awesome-threat-modelling)
@@ -51,8 +56,9 @@ title: "Helpful Resources"
 [RUBY LIBRARY SECURITY](https://rubysec.com/)
 
 ## Practice
-[OWASP JUICE SHOP](https://owasp.org/www-project-juice-shop/)
-
+[OWASP JUICE SHOP](https://owasp.org/www-project-juice-shop/)\
+[DVWA](https://github.com/digininja/DVWA)\
+[VULNHUB](https://www.vulnhub.com/)
 
 
 
