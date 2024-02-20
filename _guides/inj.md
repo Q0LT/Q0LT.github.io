@@ -60,3 +60,44 @@ http://website/ldapsearch?user= *)(uid= * ))(|uid= *)
 ## Resources:
 [OWASP](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html)
 
+## SQLi
+Explained:
+: Enables attackers to manipulate a website's database by inserting malicious SQL queries throughout input fields, potentially leading to unauthorized access, data leakage, or database manipulation
+
+### How to Test
+- When is the app interacting with a DB server
+	- Authentication forms
+	- Search engines
+	- E-Commerce sites and their product descriptions
+- Input fields, including the hidden fields of POST requests
+- Consider also HTTP headers and Cookies
+
+| Command | Purpose |
+| ---- | ---- |
+| SHOW tables; | List tables in database |
+| DESC table name; | Describe field values in table |
+| SELECT column From table; | Select field from table |
+| INSERT INTO table name (col1, col2) VALUES (val1, val2); | Insert a new record |
+| DELETE database name | Delete a DB |
+
+### Error-based SQLi
+- Intentionally triggering an error in the database query to extract information from the error messages returned by the server
+- This allows the attacker to gather valuable information about the database structure
+### Blind SQLi
+- Attacker sends a crafter SQL query to the server but no feedback is received
+- Instead, observe the differences in the application's response to determine if the query was successful
+- Boolean-based SQLi
+	- Ask the database true or false questions, such as (id =1 AND 1=1) or (id=1 AND 1=2)
+- Time-based SQLi
+	- Can you get the database to pause?
+	- http://example.com/test.php?id=1 and sleep(5)-- 
+- Can you conduct a linear search?
+- Can you conduct a binary search?
+
+### Union Query SQL Injection
+- The UNION keyword combines the results of their injected query with the original query
+- http://example.com/search?keyword=iphone' UNION SELECT username, password FROM users --
+
+### Resources
+[SQL WORKBENCH](www.sql-workbench.net/dbms_comparison.html)
+[HACKTRICKS](https://book.hacktricks.xyz/pentesting-web/sql-injection)
