@@ -2,7 +2,7 @@
 title: "Injection Attacks"
 ---
 # Server Side
-##Command Injection 
+## Command Injection 
 
 Explained:
 : Exploits vulnerabilities in programs that allow the execution of external commands on the server.
