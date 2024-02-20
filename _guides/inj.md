@@ -35,3 +35,27 @@ Explained:
 [HACKTRICKS](https://book.hacktricks.xyz/pentesting-web/command-injection)
 [PORTSWIGGER](https://portswigger.net/web-security/os-command-injection)
 [OSCP NOTES](https://gabb4r.gitbook.io/oscp-notes/cheatsheet/command-injection-cheatsheet)
+
+
+# LDAP Injection
+
+Explained:
+: Apps may pass authentication queries for data into back-end LDAP systems. Important to note LDAP Filters constructed from key-value pairs. 
+
+
+| Symbol | Description |
+| ---- | ---- |
+| * | Wildcard |
+| Logical AND | & |
+| Logical OR | \| |
+| Approximately  | ~= |
+| Greater than | >= |
+
+Example:
+```
+http://website/ldapsearch?user= *)(uid= * ))(|uid= *)
+```
+
+Resources:
+[OWASP](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html)
+
