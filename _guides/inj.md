@@ -1,7 +1,7 @@
 ---
 title: "Injection Attacks"
 ---
-# Server Side
+
 ## Command Injection 
 
 Explained:
@@ -101,3 +101,25 @@ Explained:
 ### Resources
 [SQL WORKBENCH](www.sql-workbench.net/dbms_comparison.html)
 [HACKTRICKS](https://book.hacktricks.xyz/pentesting-web/sql-injection)
+
+## XSS
+
+Explained:
+: Attackers can inject client-side scripts or HTML code into web pages to steal information or bypass authentication. This occurs because of a lack of inspection on the server side. 
+
+### What to Look For
+- Input fields users can enter text
+	- search bars, contact forms, login forms, user profile, chat systems
+- URL parameters
+- Cookies
+- File upload forms
+- Is it encoded? URL or base64?
+### XSS Types
+- Reflected: Injection is reflected back to the user's browser. I.E. a pop up box from a script alert
+- Stored: Injection is permanently stored on the server and executes when other users view that page
+- DOM-based: Modifies DOM in browser. Unliked the other two, this injection occurs on the client side. Can occur if user-controlled data is used to update the DOM directly.
+
+### Resources
+[OWASP FILTER EVASION](https://owasp.org/www-community/xss-filtter-evasion-cheatsheet)
+[HACKTRICKS XSS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting)
+[HACKTRICKS DOM XSS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/dom-xss)
