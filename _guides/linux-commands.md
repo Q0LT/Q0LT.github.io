@@ -17,6 +17,15 @@ Basic Commands:
   <code>ls -R</code> 
   <span style="margin-left: 10px; color: #555;"># Displays subdirectories</span>
   <br>
+  <code>dir </code> 
+  <span style="margin-left: 10px; color: #555;"># Display files in directory</span>
+  <br>
+  <code>uname -a </code> 
+  <span style="margin-left: 10px; color: #555;"># OS information</span>
+  <br>
+  <code>dmidecode </code> 
+  <span style="margin-left: 10px; color: #555;"># DMI table decoder</span>
+  <br>
   <code>cd /path/to/directory</code>  
   <span class="command-description"># Change directory</span>
   <br>
@@ -28,6 +37,18 @@ Basic Commands:
   <br>
   <code>cd / </code>  
   <span class="command-description"># Root directory</span>
+  <br>
+  <code>more filename </code> 
+  <span style="margin-left: 10px; color: #555;"># First page of file</span>
+  <br>
+  <code>less filename </code> 
+  <span style="margin-left: 10px; color: #555;"># First page of file, reverse order</span>
+  <br>
+  <code>head -1 filename</code> 
+  <span style="margin-left: 10px; color: #555;"># View specific number of lines</span>
+  <br>
+  <code>tail -1 filename </code> 
+  <span style="margin-left: 10px; color: #555;"># View specific number of lines, reverse order</span>
   <br>
   <code>cat > filename </code>  
   <span class="command-description"># Create a new file </span>
@@ -52,6 +73,12 @@ Basic Commands:
   <br>
   <code>rmdir directoryname </code>  
   <span class="command-description"># Delete directory </span>
+  <br>
+  <code>rm -d </code> 
+  <span style="margin-left: 10px; color: #555;"># Remove non-enpty directory </span>
+  <br>
+  <code>rm -rf </code> 
+  <span style="margin-left: 10px; color: #555;"># Forcefully remove sub-directories and its contents</span>
   <br>
   <code>pr -x </code>  
   <span class="command-description"># Divides the file into x columns</span>
@@ -84,8 +111,8 @@ File Permission Commands:
   <code>chown user:group filename </code> 
   <span style="margin-left: 10px; color: #555;"># Change user and group for a file/directory</span>
   <br>
-  <code> </code> 
-  <span style="margin-left: 10px; color: #555;"># </span>
+  <code>chgrp group</code> 
+  <span style="margin-left: 10px; color: #555;"># Change file ownership on the group level</span>
   <br>
 </div>
 Environment Variables Commands:
@@ -144,9 +171,6 @@ Networking Commands:
   <code>Ping hostname = "" or = "" </code> 
   <span style="margin-left: 10px; color: #555;"># To ping and analyzing network and host connections</span>
   <br>
-  <code>dir </code> 
-  <span style="margin-left: 10px; color: #555;"># Display files in directory</span>
-  <br>
   <code>put file </code> 
   <span style="margin-left: 10px; color: #555;"># Upload a file from local to remote computer</span>
   <br>
@@ -195,6 +219,28 @@ Process Commands:
   <br>
   <code>free </code> 
   <span style="margin-left: 10px; color: #555;"># Gives free RAM on your system</span>
+  <br>
+</div>
+Filters/Text Processing Commands:
+
+<div style="background-color: #f5f5f5; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; display: inline-block; font-family: 'Courier New', Courier, monospace;">
+  <code>cut -c1-2 filename </code> 
+  <span style="margin-left: 10px; color: #555;"># Remove sections from each line of files</span>
+  <br>
+  <code>awk '{print $1}' </code> 
+  <span style="margin-left: 10px; color: #555;"># Pattern scanning and processing language</span>
+  <br>
+  <code>grep findthisin filename </code> 
+  <span style="margin-left: 10px; color: #555;"># Print lines that match patterns</span>
+  <br>
+  <code>sort option filename</code> 
+  <span style="margin-left: 10px; color: #555;"># Sort lines of text files</span>
+  <br>
+  <code>uniq (always use sort before uniq)  </code> 
+  <span style="margin-left: 10px; color: #555;"># Report or omit repeated lines</span>
+  <br>
+  <code>wc option filename </code> 
+  <span style="margin-left: 10px; color: #555;"># Print newline, word, and byte counts for each file</span>
   <br>
 </div>
 
